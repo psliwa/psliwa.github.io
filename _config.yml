@@ -1,14 +1,6 @@
-# Site Build Settings
-
-# Jekyll-paginate-v2 configuration
-#  pagination:
-#   enabled: true
-#   per_page: 5
-#   permalink: '/page/:num/'
-#   title: ':title - page :num of :max'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
+email: me@psliwa.org
+twitter_username: psliwa
+github_username:  psliwa
 
 # jekyll-paginate configuration
 paginate:            5
@@ -16,13 +8,13 @@ paginate:            5
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
-permalink:           none
+permalink: /:title/
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Lagrange'
-description:	       'a minimalist Jekyll theme'
-author:              'Paul Le'
+title:		           'Brudnopis programisty'
+description:	       'czyli zapiski o programowaniu'
+author:              'psliwa'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
